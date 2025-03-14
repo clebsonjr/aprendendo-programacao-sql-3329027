@@ -1,4 +1,3 @@
 UPDATE employees
-SET id_salario = 4,
-LastName = 'Silva'
-WHERE EmployeeID = 2;
+SET id_salario = 1
+WHERE id_salario is NULL;
