@@ -1,10 +1,5 @@
-SELECT
-TrackId,
-UnitPrice,
-UnitPrice * 0.5,
-UnitPrice + 2.11,
-(UnitPrice + 2.11) % 2
+SELECT DISTINCT
+Country AS pais,
+Company AS empresa
 FROM
-invoice_items
-WHERE InvoiceId = 3
-AND InvoiceId < 10;
+customers;
