@@ -1,5 +1,5 @@
 {
-  "recommendations": [
-    "qwtel.sqlite-viewer"
-  ]
+   
+  "sqlite.sqlite3": ".sequelizerc",
+  
 }
